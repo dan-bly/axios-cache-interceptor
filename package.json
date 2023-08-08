@@ -39,6 +39,7 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "benchmark": "cd benchmark && pnpm start",
+    "prepare": "sh build/build.sh",
     "build": "sh build/build.sh",
     "check": "sh build/check.sh",
     "docs:build": "vitepress build docs",
