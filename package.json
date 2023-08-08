@@ -39,7 +39,7 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "benchmark": "cd benchmark && pnpm start",
-    "prepare": "tsc -p build/tsconfig.types.json && webpack --config build/webpack.config.js",
+    "prepare": "npm run build",
     "build": "sh build/build.sh",
     "check": "sh build/check.sh",
     "docs:build": "vitepress build docs",
